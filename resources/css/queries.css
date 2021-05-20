@@ -67,7 +67,11 @@
     .mail{color: #bb0000;}
     .carousel-cell{width: 48%;}
     .flickity-page-dots{display: none;}
-}
+     .social-links{text-align: center;}
+    .social-links{ font-size: 50%;}
+    .social-links li {margin-left: 10px}
+    .section-photo{padding: 70px 0px;}
+
 
 
 
@@ -79,6 +83,10 @@
     body{ font-size: 14px;}
     .carousel-cell{width: 55%;}
     .flickity-page-dots{display: none;}
+     .social-links{text-align: center;}
+    .social-links{ font-size: 50%;}
+    .social-links li {margin-left: 10px}
+    .section-photo{padding: 70px 0px;}
     
     
 }
