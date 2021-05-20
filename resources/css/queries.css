@@ -1,0 +1,84 @@
+/*big tablets to 1200px width smaller then 1140px thast is row*/
+@media only screen and (max-width: 1200px){
+    
+    .row{padding: 0 1%;}
+}
+
+
+
+/*small tablets to big tablets from 768px to 1025px*/
+@media only screen and (max-width: 1025px){
+     
+    body { font-size: 17px;}
+    section{ padding: 60px 0px;}
+    .row{ padding: 0 2%;}
+    .main-nav li {margin-left: 5px;
+        margin-top: 20px;}
+    .carousel-cell{width: 30%}
+    
+}
+
+
+
+/*small phones to small tablets from 480px to 767px*/
+@media only screen and (max-width: 767px){
+    .row{padding: 0 4%}
+    header{background-size:cover;}
+    section{padding: 30px 0}
+    body{ font-size: 14px;}
+    .developer{margin-top: 35px;}
+    .long-copy{
+        line-height: 20px;
+        font-weight: 300;
+    }
+    .long-copy:after{width: 200px;}
+    .main-nav{display: none;}
+    .mobile-nav{display: block;
+        font-size: 200%;
+        margin-top: 20px;}
+    
+    .main-nav {float: left;
+         margin-left: 30px;}   
+    
+    .main-nav li{display: block; }
+    
+    .main-nav li a:link,
+    
+    .main-nav li a:visited{display: block;
+        border: 0;
+        margin-top: 5px;
+        padding: 3px;}
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{ padding: 5px;}
+    
+    .sticky .mobile-nav{color: #555;}
+    
+    .text {float: left;
+        margin-top: 20px;}
+    
+    .logo-img{float: left;}
+    
+    .number{color:#075e54; }
+    .email-id{color: #bb0000;}
+    .facebook{color:  #3b5998;}
+    .instagram{color: #517fa4;}
+    .twitter{color: #00aced;}
+    .mail{color: #bb0000;}
+    .carousel-cell{width: 48%;}
+    .flickity-page-dots{display: none;}
+}
+
+
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width: 480px){
+    .row{0 6%;}
+    section{padding: 20px 0;}
+    body{ font-size: 14px;}
+    .carousel-cell{width: 55%;}
+    .flickity-page-dots{display: none;}
+    
+    
+}
